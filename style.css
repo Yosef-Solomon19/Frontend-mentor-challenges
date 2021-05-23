@@ -1,18 +1,24 @@
 
 
 body{
-    background: hsl(244, 38%, 16%);
-}
-
-h1, h2, h3, h4, h5, h6 {
+    background: hsl(233, 47%, 7%);
     color: aliceblue;
-}
-
-p {
-    color: aliceblue;
-    
+    font-size: 15px;   
 }
 
 strong {
     color: hsl(277, 64%, 61%);
+}
+
+p{
+    
+    padding-bottom: 50px
+}
+
+h2 {    
+    margin-bottom: 2px;
+}
+
+#card {
+    background: hsl(244, 38%, 16%);
 }
