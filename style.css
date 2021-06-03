@@ -13,17 +13,23 @@ body{
     color: hsl(277, 64%, 61%);
 }
 
-p{    
+.description{    
     margin-bottom: 60px
 }
 
-h2 {    
-    margin-bottom: 2px;
+.col-rows h2 {    
+    margin-bottom: 1px;
+}
+
+.col-rows p {
+    margin-top: 5px;
 }
 
 main {
     background: hsl(244, 38%, 16%);
 }
+
+
 
 /* .card-img {
     
