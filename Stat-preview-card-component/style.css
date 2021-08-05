@@ -5,9 +5,10 @@ body{
     color: aliceblue;
     font-size: 15px;
 }
-/* main  {
-    
-} */
+
+main {
+    background: hsl(244, 38%, 16%);
+}
 
 .soft-violet {
     color: hsl(277, 64%, 61%);
@@ -27,6 +28,11 @@ body{
 }
 
 
+.rows {
+    flex-direction: row-reverse;
+    
+}
+
 .rows h2 {    
     margin-bottom: 1px;
 }
@@ -35,9 +41,7 @@ body{
     margin-top: 5px;
 }
 
-main {
-    background: hsl(244, 38%, 16%);
-}
+
 
 .container {
     max-width: 1000px;
