@@ -17,16 +17,37 @@ body{
     margin-bottom: 60px
 }
 
-.col-rows h2 {    
+/* Adding border layout to classes to see the layout of the page  */
+.rows {
+    border: 2px solid green;
+}
+
+.left-col {
+    border: 2px solid green;
+}
+
+
+.rows h2 {    
     margin-bottom: 1px;
 }
 
-.col-rows p {
+.rows p {
     margin-top: 5px;
 }
 
 main {
     background: hsl(244, 38%, 16%);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Adding flexbox to class container */
+.columns { 
+    display: flex;
 }
 
 
