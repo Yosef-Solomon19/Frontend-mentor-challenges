@@ -31,16 +31,31 @@ main {
 .left-col {
     padding: 30px 100px 30px 30px ;
 }
-
-.rows {
-    flex-direction: row-reverse;    
+/* Creating rows */
+.create-rows {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+    
+}
+/* 9/8/2021 
+Question: How can I add more space so the contents are further away from each other 
+without the content creating another row in itself. 
+How can I make the space that the content is in wider to do that ?
+*/
+.row {
+    /* border: 2px solid green; */
+    margin-right: 40px;        
 }
 
-.rows h2 {    
+.row h2 {    
     margin-bottom: 1px;
 }
 
-.rows p {
+.row p {
     margin-top: 5px;
 }
 
@@ -51,7 +66,7 @@ main {
 }
 
 /* Adding flexbox to class container */
-.columns { 
+.create-columns { 
     display: flex;
 }
 
