@@ -19,18 +19,21 @@ main {
 }
 
 /* Adding border layout to classes to see the layout of the page  */
-.rows {
+/* .rows {
     border: 2px solid green;
-}
+} */
 
 .left-col {
     border: 2px solid green;
 }
 
+/* Left column */
+.left-col {
+    padding: 30px 100px 30px 30px ;
+}
 
 .rows {
-    flex-direction: row-reverse;
-    
+    flex-direction: row-reverse;    
 }
 
 .rows h2 {    
@@ -40,8 +43,6 @@ main {
 .rows p {
     margin-top: 5px;
 }
-
-
 
 .container {
     max-width: 1000px;
