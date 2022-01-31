@@ -1,4 +1,4 @@
-# Frontend Mentor - QR code component
+# Frontend Mentor - QR code component (Place holder will add a custom Readme.md)
 
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
