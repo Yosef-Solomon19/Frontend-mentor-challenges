@@ -6,3 +6,51 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  margin: 0;
+  /* border: 1px solid red; */
+  
+}
+
+p {
+  font-size: 15px;
+}
+
+.main-content {  
+  /* border: 1px solid red; */
+  text-align: center;
+  margin: 50px;  
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  /* border: 2px solid green; */
+  width: 300px; 
+  height: auto;
+  margin: 0 auto; 
+  padding-top: 15px;
+  
+  
+}
+
+.qr-code{
+  height: 250px;
+  width: auto;
+  
+}
+
+.dark-text {
+  color: blue;
+  font-weight: 700;
+  
+}
+
+.light-text {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+
+}
+
+
