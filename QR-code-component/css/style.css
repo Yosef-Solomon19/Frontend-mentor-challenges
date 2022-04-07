@@ -26,13 +26,13 @@ p {
 
 .container {
   background-color: hsl(0, 0%, 100%);
-  border: 2px solid green;
+  /* border: 2px solid green; */
   max-width: 1440px;  
   margin: 0 auto; 
   width: 280px;
   padding-top: 10px;
   padding-bottom: 100px;
-  
+
   /* padding-top: 10px;
   padding-bottom: 100px;   */
   /* padding-top: 15px; 
@@ -54,7 +54,10 @@ p {
 .light-text {
   color: hsl(220, 15%, 55%);
   font-weight: 400;
+}
 
+.qr-text {
+  border: 2px solid darkorchid;
 }
 
 
