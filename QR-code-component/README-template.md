@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -19,13 +19,19 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
+For this project the challenge was to build the QR code component and to get it looking as close to the design as possible.
+For this challenge I'm primarly working on it for the desktop portion. For the most part I'd say it was a 95% success.
+The assests like the icon and the QR-code image is already provided for.
+
 ### Screenshot
 
-![](./screenshot.jpg)
+The top image is my attempt at the challenge. And the bottom is the original.
+![](design/My_attempt_Frontend_Mentor_QR_code_component.png)
+![](design/desktop-design.jpg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
@@ -37,6 +43,14 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+
+I first started with looking at the original image and drawing on my notebook a large rectangle to indicate the browser.
+Prior to drawing the QR-component I highlighted areas that can be wrapped in a div. Such as the image and the text with the text also being wrapped in another div. Once I've layed out which components are in div's I started off writing the structure with HTML first. I did add the background color as-well and some borders to make sure that I had the structure down. I added some semantic html such as main then section.
+
+The section would center the content and add margin from the top.
+Inside the section are two divs, one to contain the image and paragraphs and a nest div to wrap the paragraphs. Most of the elements have class included for styling purposes.
+
+Now that the structure is complete I moved over to the styling. The majority of my time was spent on
 
 ### Built with
 
@@ -60,15 +74,17 @@ To see how you can add code snippets, see below:
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
 }
 ```
+
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+  console.log("🎉");
+};
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
