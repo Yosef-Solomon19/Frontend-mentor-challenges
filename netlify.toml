@@ -1,4 +1,4 @@
 [build]
-  base    = "QR-code-component"
+  base    = 
   publish = "Frontend-mentor-challenges.github.io/QR-code-component/"
-  command = "your build command"
+  command = 
