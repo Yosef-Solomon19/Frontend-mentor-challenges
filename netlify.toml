@@ -1,4 +1,4 @@
 [build]
   base    = 
-  publish = "Frontend-mentor-challenges.github.io/QR-code-component/"
+  publish = "Frontend-mentor-challengesgithubioQR-code-component"
   command = 
